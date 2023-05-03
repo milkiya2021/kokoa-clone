@@ -10,7 +10,7 @@ body {
 }
 
 .screen {
-  width: 300px;
+  width: 280px;
   height: 600px;
   border: 3px solid #06c4ab;
   padding: 20px;
@@ -18,7 +18,7 @@ body {
 
 .header {
   position: relative;
-  height: 20%;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ body {
 
 .header__btn--close {
   position: absolute;
-  top: 45px;
+  top: 20px;
   left: 10px;
   font-size: 30px;
   font-family: "Sigmar", cursive;
@@ -41,7 +41,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 85%;
 }
 
 .profileBox {
@@ -61,12 +61,12 @@ body {
 }
 
 .fa-image {
-  font-size: 30px;
+  font-size: 40px;
   color: white;
 }
 
 .profileBox__text {
-  width: 200px;
+  width: 170px;
   height: 80px;
   padding: 5px 10px;
 }
@@ -93,6 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Sigmar", cursive;
 }
 
 .square {
@@ -116,4 +117,54 @@ body {
 li {
   list-style: none;
   padding: 10px 5px;
+}
+
+.musicList {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+.musicList__artist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.musicList__artist--text {
+  padding-left: 10px;
+}
+
+.musicList__artist1 {
+  background-color: #f85a2a;
+}
+
+.musicList__artist2 {
+  background-color: #ff89bb;
+}
+
+.musicList__artist3 {
+  background-color: #1947e5;
+}
+
+.musicList__artist4 {
+  background-color: #00c6ad;
+}
+
+.musicList__artist--text--songTitle {
+  font-size: 20px;
+  font-family: "Sigmar", cursive;
+}
+
+.musicList__artist--text--name {
+  font-size: 13px;
+  font-weight: bold;
 }
