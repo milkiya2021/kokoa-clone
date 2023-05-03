@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  border-style: border-box;
+  height: 100vh;
+}
+
+.screen {
+  width: 750px;
+  border: 1px solid black;
+}
+
+.header {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
