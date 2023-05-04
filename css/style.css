@@ -4,6 +4,7 @@
 
 /**components**/
 @import "variables.css";
+@import "components/navbar.css";
 
 /**screens**/
 @import "screens/login.css";
