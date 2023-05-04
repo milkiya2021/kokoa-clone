@@ -1,0 +1,34 @@
+.statusBar {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 3px;
+}
+
+.statusBar__column:nth-child(1) {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fa-wifi,
+.fa-battery-three-quarters {
+  margin: 0px 5px;
+}
+
+.fa-battery-three-quarters {
+  font-size: 20px;
+}
+
+.statusBar__column:nth-child(2) {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.statusBar__column:nth-child(3) {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
