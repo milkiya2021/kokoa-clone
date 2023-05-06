@@ -1,0 +1,38 @@
+.myProfile {
+  height: 140px;
+  margin: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.myProfile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid var(--grey2);
+}
+
+.myProfile__name {
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.myFriends__list {
+  height: 70px;
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.myFriends__list img {
+  width: 60px;
+  height: 60px;
+}
+
+.myFriends__list--name {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -5,9 +5,13 @@
 /**components**/
 @import "variables.css";
 @import "components/navbar.css";
+@import "components/screenHeader.css";
+@import "components/user.css";
+@import "components/horizental.css";
 
 /**screens**/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   height: 100vh;

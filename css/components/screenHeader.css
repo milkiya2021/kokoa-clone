@@ -1,0 +1,22 @@
+.screenHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 0px 20px;
+}
+
+.screenHeader__title {
+  width: 75%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.screenHeader__menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+  font-size: 20px;
+}

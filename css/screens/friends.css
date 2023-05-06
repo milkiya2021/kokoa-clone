@@ -1,0 +1,21 @@
+.guide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: var(--grey1);
+}
+
+.fa-info-circle,
+.fa-chevron-right {
+  color: var(--grey2);
+}
+
+.guide__desc {
+  width: 200px;
+  text-align: center;
+}
+
+.myFriends__title {
+  padding: 10px 30px;
+}
