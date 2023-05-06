@@ -1,0 +1,345 @@
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f1;
+  color: var(--black);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.containers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
+  position: relative;
+}
+
+.leftScreen {
+  width: 360px;
+  height: 800px;
+  margin-right: 80px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: var(--grey);
+}
+
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  margin: 0 20px;
+  margin-top: 30px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30%;
+  margin: 0px 20px;
+}
+
+.info__photo img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  box-shadow: var(--grey);
+}
+
+.info__name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info__genre {
+  font-size: 13px;
+  color: rgb(136, 133, 133);
+}
+
+.leftScreen__btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left_Screen_btns_btn {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  box-shadow: var(--grey);
+  cursor: pointer;
+}
+
+.left_Screen_btns_btn:nth-child(1) {
+  background-color: var(--black);
+  color: white;
+}
+
+.left_Screen_btns_btn:nth-child(2) {
+  background-color: white;
+  color: var(--black);
+}
+
+.leftScreen__songs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 37%;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.leftScreen__song {
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  grid-template-rows: 50% 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.leftScreen__song:nth-child(2) {
+  box-shadow: var(--grey);
+}
+
+.leftScreen__song--photo {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-signal {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.leftScreen__song--name {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: var(--black);
+}
+
+.leftScreen__song--title {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.leftScreen__song--detail {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftScreen__song--photo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.leftScreen__controllers {
+  position: absolute;
+  bottom: 20px;
+  left: 3px;
+  display: grid;
+  grid-template-columns: 55% 15% 15% 15%;
+  grid-template-rows: repeat(2, 1fr);
+  margin: 5px 20px;
+  padding: 0px 20px;
+  width: 320px;
+  height: 70px;
+  background-color: var(--black);
+  color: white;
+  border-radius: 30px;
+  box-shadow: var(--grey);
+}
+
+.leftScreen__controllers--name {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--ironGrey);
+}
+
+.leftScreen__controllers--title {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.leftScreen__controllers--backward {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.leftScreen__controllers--pause {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.leftScreen__controllers--forward {
+  grid-column: 4/5;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rightScreen {
+  width: 360px;
+  height: 800px;
+  margin-right: 80px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: var(--grey);
+}
+
+.rightScreen__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.rightScreen__photo img {
+  border-radius: 20px;
+  box-shadow: var(--grey);
+}
+
+.rightScreen__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 150px;
+}
+
+.rightScreen__info--name {
+  color: var(--ironGreyBold);
+}
+
+.rightScreen__info--title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.rightScreen__progress {
+  margin: 10px 20px;
+  height: 50px;
+}
+
+.rightScreen__progress--Time {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: var(--ironGreyBold);
+}
+
+#progress {
+  appearance: none;
+}
+
+#progress::-webkit-progress-bar {
+  background-color: var(--ironGrey);
+  border-radius: 20px;
+  width: 320px;
+  height: 5px;
+}
+
+#progress::-webkit-progress-value {
+  border-radius: 10px;
+  background-color: var(--black);
+}
+
+.rightScreen__progress--Time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightScreen__controllers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 50px 30px;
+}
+
+.rightScreen__controllers--btn:nth-child(1),
+.rightScreen__controllers--btn:nth-child(5) {
+  color: var(--ironGreyBold);
+}
+
+.rightScreen__controllers--btn:nth-child(3) {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--black);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--grey);
+}
