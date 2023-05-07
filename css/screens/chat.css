@@ -1,0 +1,103 @@
+#chat--screen {
+  background-color: #abc1d1;
+
+  height: 1000vh;
+}
+
+#chat--screen .statusBar__chat,
+#chat--screen .screenHeader__chat {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#chat--screen .statusBar__chat {
+  height: 50px;
+}
+
+#chat--screen .screenHeader__chat {
+  top: 50px;
+}
+
+.main-chat {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main__screen--time--stamp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #92a4b2;
+  color: white;
+}
+
+#chat--screen .screenHeader__chat {
+  z-index: 2;
+}
+
+.main__screen--friendChat {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main__screen--friendChat--info {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main__screen--friendChat--photo {
+  width: 15%;
+}
+
+.main__screen--friendChat--photo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 28px;
+}
+
+.main__screen--friendChat--name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.main__screen--friendChat--content {
+  background-color: white;
+  padding: 7px;
+  border-radius: 0 20px 20px 20px;
+}
+
+.main__screen--myChat--content {
+  background-color: #fee500;
+  padding: 7px;
+  border-radius: 20px 20px 0px 20px;
+}
+
+.main__screen--myChat {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

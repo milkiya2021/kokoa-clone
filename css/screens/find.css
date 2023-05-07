@@ -1,0 +1,58 @@
+.recommendFriendsBox {
+  display: block;
+  height: 400px;
+}
+
+.subtitle {
+  padding-left: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.msg__youHaveNoRecommendedFriends {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  align-items: center;
+}
+
+.openChat {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+.openChat__title {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.openChat__recommand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.openChat__recommand--info {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+}
+
+.openChat__recommand--info-title {
+  font-size: 20px;
+}
+
+.openChat__recommand--info--remember--Photo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.openChat__recommand--info--remember--Count {
+}

@@ -1,0 +1,29 @@
+.settings__container--func {
+  height: 60px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__container--func--left {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.settings__container--func--icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
+
+.settings__container--func--name {
+  font-size: 20px;
+}
