@@ -1,11 +1,3 @@
-#friends--screen .statusBar {
-  height: 50px;
-}
-
-#friends--screen .screenHeader {
-  top: 50px;
-}
-
 .guide {
   display: flex;
   justify-content: center;
