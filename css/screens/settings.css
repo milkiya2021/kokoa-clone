@@ -1,3 +1,12 @@
+.settings__container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.settings__container::--webkit--scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
 .settings__container--func {
   height: 60px;
   padding: 10px 30px;
