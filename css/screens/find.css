@@ -1,6 +1,6 @@
 .recommendFriendsBox {
   display: block;
-  height: 400px;
+  height: 250px;
 }
 
 .subtitle {
@@ -14,14 +14,16 @@
 .msg__youHaveNoRecommendedFriends {
   display: flex;
   justify-content: center;
-  height: 350px;
+  height: 190px;
   align-items: center;
   color: var(--grey3);
+  font-size: 15px;
 }
 
 .openChat {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 0px 30px;
 }
 
@@ -44,6 +46,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
