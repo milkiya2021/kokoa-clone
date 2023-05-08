@@ -9,6 +9,8 @@
 @import "components/user.css";
 @import "components/horizental.css";
 @import "components/menu.css";
+@import "components/common.css";
+@import "components/no-mobile.css";
 
 /**screens**/
 @import "screens/login.css";
@@ -20,5 +22,7 @@
 
 body {
   height: 100vh;
+  color: rgba(0, 0, 0, 0.719);
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }

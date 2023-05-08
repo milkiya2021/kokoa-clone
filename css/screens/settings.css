@@ -1,10 +1,12 @@
 .settings__container--func {
   height: 60px;
   padding: 10px 30px;
+  margin: 12px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .settings__container--func--left {
@@ -26,4 +28,22 @@
 
 .settings__container--func--name {
   font-size: 20px;
+  font-weight: bold;
+}
+
+.settings__container--func--right {
+  color: var(--grey3);
+}
+
+.settings__container--func--new {
+  background-color: var(--red);
+  color: white;
+  padding: 3px;
+  margin-left: 10px;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 14px;
 }

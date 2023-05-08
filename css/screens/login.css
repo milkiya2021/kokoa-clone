@@ -7,14 +7,17 @@
 }
 
 .welcome {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .guideMsg {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  font-size: 17px;
+  line-height: 25px;
+  color: var(--grey3);
 }
 
 #loginForm {
@@ -26,7 +29,7 @@
 
 #loginForm input,
 a {
-  margin-top: 15px;
+  margin-top: 20px;
   height: 40px;
 }
 
@@ -51,8 +54,11 @@ a {
   color: white;
   font-weight: bold;
   margin-top: 30px;
-  cursor: pointer;
   border-radius: 5px;
+}
+
+#loginForm input:nth-child(3) {
+  font-size: 15px;
 }
 
 #loginForm input:focus {
@@ -60,7 +66,7 @@ a {
 }
 
 #loginForm a {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 12px;
   text-decoration: none;
   color: var(--purple);

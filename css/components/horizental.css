@@ -1,9 +1,9 @@
 .bold_hr {
-  border: 1px solid var(--grey1);
+  border: 1px solid var(--purple1);
   margin: 10px 20px;
 }
 
 .thin_hr {
-  border: 0.5px solid var(--grey0);
+  border: 0.5px solid var(--purple0);
   margin: 5px 20px;
 }

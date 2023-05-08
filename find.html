@@ -15,7 +15,7 @@
       </div>
       <div class="statusBar__column">06:10</div>
       <div class="statusBar__column">
-        <div class="statusBar__column--battery">10%</div>
+        <div class="statusBar__column--battery">70%</div>
         <i class="fa fa-battery-three-quarters"></i>
         <i class="fa fa-bolt"></i>
       </div>
@@ -23,12 +23,15 @@
     <div class="screenHeader">
       <div class="screenHeader__title">Find</div>
       <div class="screenHeader__menus">
-        <div class="screenHeader__search">
+        <div class="screenHeader__search screenHeader__menu">
           <i class="fas fa-search fa-lg"></i>
         </div>
-        <div class="screenHeader__setting">
+        <a
+          class="screenHeader__setting screenHeader__menu btn"
+          href="settings.html"
+        >
           <i class="fas fa-cog fa-lg"></i>
-        </div>
+        </a>
       </div>
     </div>
     <div class="menu">
@@ -84,13 +87,13 @@
             #BTS #ARMY #YetToCome #2025
           </div>
           <div class="openChat__recommand--info--member">
-            <span class="openChat__recommand--info--remember--Photo"
+            <span class="openChat__recommand--info--member--Photo"
               ><img src="img/member1.jpg"
             /></span>
-            <span class="openChat__recommand--info--remember--Count"
+            <span class="openChat__recommand--info--member--Count"
               >99999999 members |</span
             >
-            <span class="openChat__recommand--info--remember--status"
+            <span class="openChat__recommand--info--member--status"
               >Active</span
             >
           </div>
@@ -105,13 +108,13 @@
             #BTS #ARMY #YetToCome #2025
           </div>
           <div class="openChat__recommand--info--member">
-            <span class="openChat__recommand--info--remember--Photo"
+            <span class="openChat__recommand--info--member--Photo"
               ><img src="img/member2.jpg"
             /></span>
-            <span class="openChat__recommand--info--remember--Count"
+            <span class="openChat__recommand--info--member--Count"
               >99999999 members |</span
             >
-            <span class="openChat__recommand--info--remember--status"
+            <span class="openChat__recommand--info--member--status"
               >Active</span
             >
           </div>
@@ -123,22 +126,22 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
+          <a class="nav__link btn" href="friends.html"
             ><i class="fas fa-user fa-lg"></i
           ></a>
         </li>
-        <li class="nav__btn">
+        <li class="nav__btn btn">
           <a class="nav__link" href="chats.html"
             ><i class="far fa-comment fa-lg"></i
           ></a>
-          <div class="nav__notification">1</div>
+          <div class="nav__notification">7</div>
         </li>
-        <li class="nav__btn">
+        <li class="nav__btn btn">
           <a class="nav__link" href="find.html"
             ><i class="fa fa-search fa-lg"></i
           ></a>
         </li>
-        <li class="nav__btn">
+        <li class="nav__btn btn">
           <a class="nav__link" href="more.html"
             ><i class="fas fa-ellipsis-h fa-lg"></i
           ></a>
@@ -146,6 +149,9 @@
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big!! 😥</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/2db7d8d818.js"
       crossorigin="anonymous"

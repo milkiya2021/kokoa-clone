@@ -16,6 +16,7 @@
   justify-content: center;
   height: 350px;
   align-items: center;
+  color: var(--grey3);
 }
 
 .openChat {
@@ -31,11 +32,23 @@
   align-items: center;
 }
 
+.openChat__title--goto {
+  color: var(--grey3);
+}
+
+.openChat__title--goto i {
+  font-size: 20px;
+}
+
 .openChat__recommand {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+}
+
+.openChat__info--photo img {
+  border-radius: 20px;
 }
 
 .openChat__recommand--info {
@@ -46,13 +59,31 @@
 
 .openChat__recommand--info-title {
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
-.openChat__recommand--info--remember--Photo img {
-  width: 30px;
-  height: 30px;
+.openChat__recommand--info-tag {
+  font-size: 15px;
+  color: var(--grey3);
+}
+
+.openChat__recommand--info--member {
+  font-size: 13px;
+  color: var(--grey3);
+}
+
+.openChat__recommand--info--member--Count,
+.openChat__recommand--info--member--status {
+  line-height: 10px;
+}
+
+.openChat__recommand--info--member--status {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.openChat__recommand--info--member--Photo img {
+  width: 20px;
+  height: 20px;
   border-radius: 20px;
-}
-
-.openChat__recommand--info--remember--Count {
 }

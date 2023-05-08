@@ -1,0 +1,11 @@
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+.btn {
+  cursor: pointer;
+}
