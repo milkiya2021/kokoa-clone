@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   align-items: center;
   height: 150px;
+  margin: 0 20px;
 }
 
 .menu_long {
@@ -12,6 +13,7 @@
   flex-wrap: wrap;
   align-items: center;
   height: 300px;
+  margin: 0 20px;
 }
 
 .menu__function {
@@ -19,8 +21,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 
 .menu__function--icon {
