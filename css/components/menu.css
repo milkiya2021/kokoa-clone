@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   align-items: center;
   justify-content: center;
   height: 150px;
